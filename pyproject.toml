@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ddr_rater"
+version = "0.1.0"
+description = "DDR Rating model"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Your Name", email = "you@example.com" },
+]
+dependencies = [
+    "torch>=2.0.0",
+    "pandas>=3.0.2",
+    "scikit-learn>=1.8.0"
+    # "numpy",
+    # "pyarrow", # Optional: for better pandas performance
+]
+
+# [project.optional-dependencies]
+# dev = [
+#     "pytest",
+#     "ruff",
+#     "pre-commit",
+# ]
