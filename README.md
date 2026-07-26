@@ -1,4 +1,4 @@
-# ddr
+# ddr-pytorch
 
 A small PyTorch project that predicts the official difficulty rating of a
 Dance Dance Revolution chart from its step-pattern statistics. The raw chart spreadsheet contains a
